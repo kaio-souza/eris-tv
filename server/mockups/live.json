@@ -1,0 +1,17 @@
+{
+    "categories": [
+        {"id": "962af7b3eb1d7ba4f6b6abdcefab6e12", "title": "Éris TV", "icon": "tv"},
+        {"id": "8f3ebeabddfada08ad5f2380acd4901d", "title": "Filmes", "icon": "film"},
+        {"id": "86cb9f5fccae435e0eeca8f24991ed6e", "title": "Curiosidades", "icon": "question-circle"},
+        {"id": "791ea7237642f018641585e867c0e301", "title": "Estilo de Vida", "icon": "heart"},
+        {"id": "604fd1bed856d2354820dbdd4259835f", "title": "Infantil", "icon": "child"},
+        {"id": "e384da4bb16564ce55d4afe8d86b158e", "title": "Musica", "icon": "music"}
+    ],
+    "channels": [
+        {"number": 55, "logo": "cine-terror.png", "name": "Cine Terror", "category_id": "8f3ebeabddfada08ad5f2380acd4901d" },
+        {"number": 57, "logo": "cine-retro.png", "name": "Cine Retro", "category_id": "8f3ebeabddfada08ad5f2380acd4901d" },
+        {"number": 65, "logo": "pescando.png", "name": "Pescando com Golfinhos", "category_id": "962af7b3eb1d7ba4f6b6abdcefab6e12" }
+    ],
+    "highlights": { "caption": "Em Destaque", "icon": "star", "channels": [55]}
+
+}
