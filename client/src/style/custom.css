@@ -1,0 +1,53 @@
+body {
+  background-color: #000;
+  color: #fff
+}
+
+@font-face {
+  font-family:'Lobster';
+  src: url(../fonts/Lobster-Regular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family:'Bebas';
+  src: url(../fonts/BebasNeue-Regular.ttf) format("truetype");
+}
+
+#mainNav{
+  background: rgb(0,0,0);
+  background: linear-gradient(180deg, rgba(0,0,0,0.9164040616246498) 0%, rgba(0,0,0,0.76234243697479) 35%, rgba(255,255,255,0) 100%);  position: fixed;
+  top:0;
+  left: 0;
+  width: 100vw;
+  z-index: 999;
+  font-family: Bebas;
+  font-size: 2em;
+}
+.nav-link{
+  font-family:'Bebas';
+  font-size: 1.4em;
+}
+.nav-link .fa{
+  margin-right: 10px;
+}
+.nav-link:hover, .nav-link.active .fa{
+  color: #FFEB2B !important
+
+}
+.nav-link.active{
+  color: #FFEB2B !important
+}
+
+.play-list .nav-link, a{
+  color: #fff;
+}
+.play-list .nav-item{
+  padding: 10px 30px;
+}
+
+.play-list .nav-item:hover{
+  background: #222;
+  border-radius: 180px;
+  transition:all 0.5s;
+}
+

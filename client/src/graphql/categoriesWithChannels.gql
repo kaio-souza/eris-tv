@@ -1,0 +1,6 @@
+query CategoriesWithChannels {
+  categoriesWithChannels {
+      category: Category,
+      channels: [Channel]
+  }
+}

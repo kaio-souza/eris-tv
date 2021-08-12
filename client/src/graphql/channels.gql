@@ -1,0 +1,6 @@
+    type Channel {
+        number: Int,
+        logo: String,
+        name: String,
+        category_id: String
+    }
